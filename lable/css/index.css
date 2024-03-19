@@ -1,0 +1,546 @@
+.header_top
+{
+    background-color: #c0132a;
+}
+.header_top_nav_list
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+.header_top_nav_list_item_link
+{
+    display: flex;
+    align-items: center;
+    padding: 0 4px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.header_top_nav_list_item_link_icon,
+.header_top_nav_list_item_link_text
+{
+    color: #fff;
+    padding: 0 2px;
+}
+.header_top_nav_list_item_link_icon:hover,
+.header_top_nav_list_item_link_text:hover
+{
+    color: #eeeeee;
+}
+.header_bottom
+{
+    box-shadow: 2px 2px 6px 2px rgba(0,0,0,0.2);
+    position: static;
+    margin-top: -16px;
+}
+.header_bottom_nav
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_bottom_nav_logo_link
+{
+    text-decoration: none;
+}
+.header_bottom_nav_logo_img
+{
+    width: 100px;
+    object-fit: cover;
+    filter: drop-shadow(2px 2px 6px 2px #000);
+    /* margin-top: 6px; */
+   padding: 2px 0;
+}
+.header_bottom_nav_list
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0 30px;
+    list-style: none;
+}
+.header_bottom_nav_link
+{
+    text-decoration: none;
+}
+.header_bottom_nav_item
+{
+    
+    border-bottom: 0px solid #c0132a;
+    transition: all 0.3s ease;
+    position: relative;
+    transition: all 0.3s  ease;
+}
+.header_bottom_nav_text
+{
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #000;
+    letter-spacing: 0.25px;
+    display: block;
+}
+.header_bottom_nav_item:hover .header_bottom_nav_text
+{
+    border-bottom: 3px solid #c0132a;
+    cursor: pointer;
+     text-shadow: 2px 2px 8px 2px #000;
+}
+.tool_search_link,
+.tool_cart_link
+{
+    text-decoration: none;
+}
+.tool_search_link_icon,
+.tool_cart_icon
+{
+    color: #000;
+}
+.header_bottom_nav_list_Multi_nivel
+{
+    position: absolute;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    min-width: 200px;
+    border: 3px solid transparent;
+    /* padding: 4px; */
+    border-radius: 4px;
+    z-index: 1;
+    background-color: #f8f6f6;
+    display: none;
+}
+.header_bottom_nav_ỉtem_Multi_nivel
+{
+    padding: 4px 0;
+    border-bottom: 1px solid transparent;
+    transition: all 0.3s ease;
+}
+.header_bottom_nav_link_Multi_nivel
+{
+    text-decoration: none;
+}
+.header_bottom_nav_text_Multi_nivel
+{
+    text-transform: uppercase;
+    color: #000;
+    font-weight: 500;
+    letter-spacing: 0.25px;
+}
+.header_bottom_nav_ỉtem_Multi_nivel:hover .header_bottom_nav_text_Multi_nivel
+{
+    color: #c0132a;
+    cursor: pointer;
+}
+.header_bottom_nav_item:hover .header_bottom_nav_list_Multi_nivel
+{
+    display: block;
+}
+/* silde */
+.background_silde
+{
+    background: linear-gradient(to left , #639AD2,#0259A0);
+    height: 60vh;
+}
+.background_silde_java
+{
+    background: linear-gradient(to left , #5B76AA,#E67254);
+    height: 60vh;
+}
+.zone_silde
+{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    gap: 0 200px;
+    padding-top:42px ;
+}
+/* .conntent_sile_text
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+} */
+.conntent_sile_text_mota
+{
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 0.25px;
+}
+.conntent_sile_text_noidung_text
+{
+    color: #fff;
+    line-height: 24px;
+    letter-spacing: 0.25px;
+    text-wrap: wrap;
+    font-weight: 400;
+}
+.conntent_sile_text_input
+{
+    margin-top: 12px;
+}
+.conntent_sile_text_input_link
+{
+    text-decoration: none;
+}
+.conntent_sile_text_input_text
+{
+    color: #fff;
+    border: 1px solid transparent;
+    padding: 6px 30px;
+    background-color: #000;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+    font-weight: 400;
+    margin: 10px 0 0 0;
+}
+.conntent_sile_text_input_text:hover
+{
+    cursor: pointer;
+    color: #000;
+    background-color: #eeeeee;
+}
+.content_sile_language_img
+{
+    width: 300px;
+    object-fit: contain;
+}
+.content_sile_language_img_html
+{
+    width: 400px;
+    object-fit: contain;
+    margin-top: 26px;
+}
+#introduce
+{
+    margin-top: 3%;
+}
+.introduce_h3
+{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.25px;
+    text-transform: uppercase;
+}
+.nav_introduce_text
+{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+}
+.nav_introduce_text_logo_img
+{
+    object-fit: contain;
+    width: 400px;
+   animation-name: example;
+   animation-duration: 10s;
+   animation-iteration-count: infinite;
+}
+@keyframes example
+{
+    0%
+    {
+        transform: translateY(-20px);
+    }
+    25%
+    {
+        transform: translateY(20px);
+    }
+    50%
+    {
+        transform: translateY(-20px);
+    }
+    75%
+    {
+        transform: translateY(20px);
+    }
+    100%
+    {
+        transform: translateY(-20px);
+    }
+}
+.nav_introduce_text_content_text
+{
+    text-align: center;
+    padding-bottom: 4px;
+    text-transform: uppercase;
+    letter-spacing: 0.25px;
+    line-height: 24px;
+   font-weight: 700;
+}
+.nav_introduce_text_content_describe
+{
+    white-space:unset;
+    letter-spacing: 0.25px;
+    font-size: 18px;
+}
+/* .animation_button_link
+{
+    width: 150px;
+    padding: 7px 14px ;
+    border: 1px solid transparent;
+    border-radius: 25px;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s ease;
+} */
+.nav_introduce_text_content_link
+{
+    text-decoration: none;
+    transition: all 0.3s ease;
+    color: #c0132a;
+    letter-spacing: 0.25px;
+    text-transform: capitalize;
+    position: relative;
+    padding-right: 6px;
+    border: 1px solid #c0132a;
+    padding: 7px 14px;
+    border-radius: 25px;
+    /* border: 1px solid #000; */
+}
+.nav_introduce_text_content_icon
+{
+    
+    left: 0;
+    top: 30%;
+    /* display: none; */
+    transition: all 0.3s ease;
+    z-index: 1;
+}
+/* .nav_introduce_text_content_link:hover
+{
+    border: ;
+} */
+.nav_introduce_text_content_link:hover 
+{
+    background-color: #c0132a;
+    color: #fff;
+    
+}
+/* thông tin khóa học*/
+#COURSE_INFORMATION
+{
+    margin-top: 12px;
+}
+.COURSE_INFORMATION_h3
+{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.COURSE_INFORMATION_contend_zone_border
+{
+    border: 1px solid transparent;
+    width: 256px;
+}
+.COURSE_INFORMATION_contend_zone
+{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    align-items: center;
+    justify-content: center;
+}
+
+.limit
+{
+
+   padding-top: 30px;
+   padding-left: 50px;
+}
+.COURSE_INFORMATION_contend_zone_border_img
+{
+    object-fit: contain;
+    width: 170px;
+    transition: all 0.3s ease;
+}
+.COURSE_INFORMATION_contend_zone_border_contend
+{
+    margin-top: 40px;
+}
+.COURSE_INFORMATION_contend_zone_border_text
+{
+    border: 1px solid #ffffff;
+    margin-top:20px ;
+    border-radius: 6px;
+    box-shadow: 2px 2px 6px 2px rgba(0,0,0,0.2);
+    text-align: center;
+    padding: 20px 0;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+.limit:hover .COURSE_INFORMATION_contend_zone_border_img
+{
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+.COURSE_INFORMATION_contend_zone_border:hover .COURSE_INFORMATION_contend_zone_border_text
+{
+    color: #c0132a;
+}
+.counters
+{
+    padding: 3em 2em;
+    background-color: #4193ff;
+    color: #fff;
+    text-align: center;
+}
+.counters>div
+{
+    max-width: 900px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 4em 2em;
+}
+.counter
+{
+    position: relative;
+}
+.counter h1
+{
+    font-size: 3em;
+    margin-bottom: 0.5em;
+}
+.counter:not(:last-child)::before
+{
+    content: "";
+    background-color: #fff;
+    position: absolute;
+    width: 2px;
+    height: 3rem;
+    top:50%;
+    transform: translateY(-50%);
+    right: -1em;
+}
+@media only screen and (max-witdh:900px) and ( min-witdh:501px)
+{
+    .counters>div
+    {
+        grid-template-columns: 1fr 1fr;
+    }
+    .counter:nth-child(2)::before
+    {
+        display: none;
+    }
+}
+@media screen and(max-witdh:500px) {
+    .counters>div
+    {
+        grid-template-columns: 1fr;
+        row-gap: 5em;
+    }
+    .counter:not(:last-child)::before
+    {
+        width: 90%;
+        height: 2px;
+        top:initial;
+        bottom: -3em;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    
+}
+/* Khóa học nổi bật */
+#featured_course
+{
+    margin-top: 22px;
+}
+.featured_course_header_h3
+{
+    text-align: left;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 22px;
+    position: relative;
+}
+.featured_course_header_h3::after
+{
+    content: "vip";
+    font-size: 9px;
+    position: absolute; 
+    right: 74%;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    padding: 5px;
+    background-color: #4193ff;
+    color: #fff;
+    top:  0;
+    font-weight: bold   ;
+}
+.featured_course_article_nav
+{
+    display: grid;
+    grid-template-columns:   25% 25% 25% 25% ;
+    
+}
+.featured_course_article_nav_vip
+{
+    max-width:310px ;
+    overflow: hidden;
+}
+.featured_course_article_nav_vip
+{
+    text-decoration: none;
+}
+.featured_course_article_nav_vip_img_languega
+{
+    width: 310px;
+    border-radius: 6px;
+    display: block;
+    max-width: 100%;
+    object-fit: contain;
+    margin: 0 auto;
+    padding: 0;
+    transition: all 0.3s ease;
+}
+.featured_course_article_nav_vip:hover .featured_course_article_nav_vip_img_languega
+{
+    transform: scale(1.03);
+    opacity: 0.8;
+}
+.featured_course_article_nav_vip_content_text
+{
+   text-align: center;
+   text-transform: capitalize;
+   font-weight: 500;
+   letter-spacing: 0.25px;
+   transition: all 0.3s ease;
+   color: #000;
+}
+.featured_course_article_nav_vip:hover .featured_course_article_nav_vip_content_text
+{
+    color: #c0132a;
+}
+.price
+{
+    display: flex  ;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0 20px;
+    max-width: 310px;
+}
+.price_old
+{
+    text-decoration:line-through;
+    color: #c6c4c4  ;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.price_sale
+{
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+    color: #000;
+}
+.featured_course_article_nav_vip:hover .price_sale
+{
+    color: #c0132a;
+}
+.download_icon
+{
+    color: #000;
+}
