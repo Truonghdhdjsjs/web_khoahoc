@@ -473,7 +473,7 @@
 {
     display: grid;
     grid-template-columns:   25% 25% 25% 25% ;
-    
+    gap: 0 10px;
 }
 .featured_course_article_nav_vip
 {
@@ -544,3 +544,4 @@
 {
     color: #000;
 }
+/* phần chuối trang */
