@@ -136,6 +136,24 @@
 {
     display: block;
 }
+.tool_user
+{
+    position: relative;
+}
+.tool_user_icon_list
+{
+    position: absolute;
+    z-index: 1;
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    border: 1px solid black;
+    border-radius: 6px;
+}
+.tool_user_icon_iteam
+{
+    
+}
 /* silde */
 .background_silde
 {
@@ -545,3 +563,8 @@
     color: #000;
 }
 /* phần chuối trang */
+#footer
+{
+    background-color: #000;
+    max-width: 100%;
+}
