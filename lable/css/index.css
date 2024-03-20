@@ -147,12 +147,32 @@
     list-style: none;
     margin: 0 auto;
     padding: 0;
-    border: 1px solid black;
-    border-radius: 6px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    min-width: 100px;
+    background-color: #f3f0f0;
+    display: none;
+    transition: all 0.3s ease;
 }
 .tool_user_icon_iteam
 {
-    
+    /* padding: 5px; */
+    /* margin: 5px; */
+}
+.tool_user_icon_link
+{
+    text-decoration: none;
+    color: #000;
+    /* font-weight: 500; */
+    /* s */
+}
+.tool_user:hover .tool_user_icon_list
+{
+    display: block  ;
+}
+.tool_user_icon_link:hover
+{
+    color: #c0132a;
 }
 /* silde */
 .background_silde
@@ -475,12 +495,12 @@
 }
 .featured_course_header_h3::after
 {
-    content: "vip";
+    content: "Free";
     font-size: 9px;
     position: absolute; 
-    right: 74%;
+    right: 73%;
     border: 1px solid transparent;
-    border-radius: 50%;
+    border-radius: 6px;
     padding: 5px;
     background-color: #4193ff;
     color: #fff;
@@ -562,9 +582,24 @@
 {
     color: #000;
 }
-/* phần chuối trang */
-#footer
+/* phàn tài liệu lập trình*/
+.document_free_text
 {
-    background-color: #000;
-    max-width: 100%;
+    text-align: left;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 20px;
+    position: relative;
+}
+.document_free_text::after
+{
+    position: absolute;
+    content: " Free";
+    font-size: 11px;
+    border-radius: 6px;
+    border: 1px solid #4193ff;
+    background-color: #4193ff;
+    color: #fff;
+    padding: 2px;
+    margin-left: 6px;
 }
